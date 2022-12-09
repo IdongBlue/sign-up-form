@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+}
+
+
+main {
+    min-height: 100%;
+    min-width: 100%;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+
+#design {
+    min-width: 40%;
+    background-image: url(./images/pencils.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#main {
+    background-color: black;
+    color: rgb(185, 185, 185);;
+}
+
+#info {
+    padding-left: 38px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    padding-right: 80px;
+
+}
+
+#info p {
+    font-size: 1.3rem;
+}
+
+form {
+    padding-left: 38px;
+    padding-top: 5px;
+    background-color: rgb(8,8,8);
+}
+
+form p {
+    font-size: 1.3rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#sign {
+    margin-top: 20px;
+}
+
+#log {
+    font-size: 1.2rem;
+    padding-left: 38px;
+    padding-top: 50px;
+}
+
+form .container {
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    gap: 10px;
+}
+
+form .container div {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-size: .8rem;
+}
+
+#btn1 {
+    padding-top: 30px;
+}
